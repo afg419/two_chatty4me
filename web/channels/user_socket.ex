@@ -2,7 +2,7 @@ defmodule TwoChatty4me.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "rooms:*", TwoChatty4me.RoomChannel
+  channel "rooms:*", TwoChatty4me.RoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
